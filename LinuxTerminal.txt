@@ -1,0 +1,4 @@
+ctrl+alt+t  - open a new terminal
+ctlr+shift+c - copy from termina
+ctrl+shift+v - paster into terminal
+ctrl+c - stops the process
