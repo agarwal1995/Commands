@@ -1,0 +1,11 @@
+Command For Google Cloud SSH Key Generation:
+	ssh-keygen -t rsa -f ~/.ssh/KEY_FILENAME -C USERNAME -b 4096
+
+Key which is used is
+	Your public key has been saved in /home/raag/.ssh/google_compute_engine.pub
+
+SSH Command to run python script in google vm machine:
+	gcloud compute ssh --zone us-east4-a instance-template-1 --command "gsutil cp gs://raag/PrintName.py ~/test.py && python3 ~/test.py && rm ~/test.py"
+
+Gcloud List Images (with thier project and family)
+	gcloud compute images list

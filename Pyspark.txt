@@ -1,0 +1,1 @@
+gcloud compute ssh --zone us-east4-a instance-template-1 --command " sudo apt-get -y update && sudo apt-get -y install python3-pip && gsutil cp gs://raag/runV1.py ~/test.py && gsutil cp gs://raag/config.json ~/config.json && gsutil cp gs://raag/config.yml ~/config.yml && python3 -m pip install pyyaml && python3 ~/test.py rm ~/test.py"

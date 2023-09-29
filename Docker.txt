@@ -1,0 +1,11 @@
+List docker images
+	docker images
+
+List docker containers:
+	docker ps -a
+
+Delete docker image:
+	docker rmi {id}
+
+Delete container:
+	docker rm {id}
